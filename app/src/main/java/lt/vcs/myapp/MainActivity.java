@@ -16,6 +16,9 @@ TextView txtView;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        buttonTic = (Button) findViewById(R.id.btn1);
+        buttonSnake = (Button) findViewById(R.id.btn2);
+        buttonPuzzle = (Button) findViewById(R.id.btn3);
+        txtView = (TextView) findViewById(R.id.txt);
     }
 }
