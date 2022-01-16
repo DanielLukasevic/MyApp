@@ -11,23 +11,22 @@
     tools:context="MainActivity">
 
     <TextView
-        android:text="           Game Aplication"
-        android:layout_width="394dp"
-        android:layout_height="51dp"
-        android:layout_marginEnd="1dp"
         android:id="@+id/txt"
-        android:textSize="30dp"
+        android:layout_width="386dp"
+        android:layout_height="85dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginEnd="1dp"
+        android:text="             Select Button"
         android:textColor="#FF0000"
-         />
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="309dp"
         android:background="#da1a01"
         android:text="Tic-Tac-Toe"
         android:textSize="30dp" />
@@ -36,10 +35,10 @@
         android:id="@+id/btn2"
         android:layout_width="379dp"
         android:layout_height="102dp"
+
         android:layout_above="@+id/btn3"
-        android:layout_below="@+id/btn1"
         android:layout_marginTop="181dp"
-        android:layout_marginBottom="176dp"
+        android:layout_marginBottom="35dp"
         android:background="#012dda"
         android:text="Snake"
         android:textSize="30dp" />
@@ -49,8 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="70dp"
         android:background="#1fe70d"
         android:text="Puzzle"
         android:textColor="#FFFFFF"

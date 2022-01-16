@@ -30,13 +30,13 @@ TextView txtView;
     @Override
     public void onClick(View view) {
         if(view.getId()==R.id.btn1){
-            txtView.setText("FirstButton is clicked");
+            txtView.setText("Tic-Tac-Toe Button is clicked");
         }
         if(view.getId()==R.id.btn2){
-            txtView.setText("SecondButton is clicked");
+            txtView.setText("Snake Button is clicked");
         }
         if(view.getId()==R.id.btn3){
-            txtView.setText("ThirdButton is clicked");
+            txtView.setText("Puzzle Button is clicked");
         }
     }
 }
