@@ -35,7 +35,6 @@
         android:id="@+id/btn2"
         android:layout_width="379dp"
         android:layout_height="102dp"
-
         android:layout_above="@+id/btn3"
         android:layout_marginTop="181dp"
         android:layout_marginBottom="35dp"
