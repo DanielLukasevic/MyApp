@@ -29,18 +29,6 @@ TextView txtView;
         buttonPuzzle.setOnLongClickListener(this);
 
     }
-//@Override
-//    public void onClick(View view) {
-//        if(view.getId()==R.id.btn1){
-//            txtView.setText("Tic-Tac-Toe Button is clicked");
-//        }
-//        if(view.getId()==R.id.btn2){
-//            txtView.setText("Snake Button is clicked");
-//        }
-//        if(view.getId()==R.id.btn3){
-//            txtView.setText("Puzzle Button is clicked");
-//        }
-//    }
 
     @Override
     public boolean onLongClick(View view) {
@@ -56,7 +44,7 @@ TextView txtView;
        return false;
     }
 
-    public void nextActivity(View v){
+    public void secondActivity(View v){
         Intent i = new Intent(this,Main2ActivityTic.class);
         startActivity(i);
     }
