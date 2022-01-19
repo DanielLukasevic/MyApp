@@ -28,6 +28,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="309dp"
         android:background="#da1a01"
+        android:onClick="nextActivity"
         android:text="Tic-Tac-Toe"
         android:textSize="30dp" />
 

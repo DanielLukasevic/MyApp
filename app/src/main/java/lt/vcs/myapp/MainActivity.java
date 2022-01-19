@@ -2,9 +2,12 @@ package lt.vcs.myapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnLongClickListener {
@@ -27,7 +30,7 @@ TextView txtView;
 
     }
 //@Override
-//    public void onLongClickItem(View view) {
+//    public void onClick(View view) {
 //        if(view.getId()==R.id.btn1){
 //            txtView.setText("Tic-Tac-Toe Button is clicked");
 //        }
@@ -52,4 +55,12 @@ TextView txtView;
        }
        return false;
     }
+
+    public void nextActivity(View v){
+        Intent i = new Intent(this,Main2ActivityTic.class);
+        startActivity(i);
+    }
+
+
+
 }
