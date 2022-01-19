@@ -49,6 +49,13 @@ TextView txtView;
         startActivity(i);
     }
 
+    public void secondActivity1(View e){
+        Intent s = new Intent(this,MainActivitySna.class);
+        startActivity(s);
+    }
+    public void secondActivity2(View a){
+        Intent d = new Intent(this,MainActivity2Puz.class);
+        startActivity(d);
 
-
-}
+        }
+    }

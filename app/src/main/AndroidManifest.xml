@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".MainActivity2Puz"
+            android:exported="false"
+            android:label="@string/title_activity_main_activity2_puz"
+            android:theme="@style/Theme.MyApp.NoActionBar" />
+        <activity
+            android:name=".MainActivitySna"
+            android:exported="false"
+            android:label="@string/title_activity_main_sna"
+            android:theme="@style/Theme.MyApp.NoActionBar" />
+        <activity
             android:name=".Main2ActivityTic"
             android:exported="false" />
         <activity
