@@ -34,12 +34,13 @@
 
     <Button
         android:id="@+id/btn2"
-        android:layout_width="379dp"
-        android:layout_height="102dp"
+        android:layout_width="395dp"
+        android:layout_height="89dp"
         android:layout_above="@+id/btn3"
         android:layout_marginTop="181dp"
-        android:layout_marginBottom="35dp"
+        android:layout_marginBottom="48dp"
         android:background="#012dda"
+        android:onClick="secondActivity1"
         android:text="Snake"
         android:textSize="30dp" />
 
@@ -50,6 +51,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="70dp"
         android:background="#1fe70d"
+        android:onClick="secondActivity2"
         android:text="Puzzle"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
