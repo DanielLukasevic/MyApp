@@ -1,20 +1,18 @@
 package lt.vcs.myapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnLongClickListener {
     Button buttonTic;
     Button buttonSnake;
     Button buttonPuzzle;
-TextView txtView;
+    TextView txtView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,35 +25,37 @@ TextView txtView;
         buttonTic.setOnLongClickListener(this);
         buttonSnake.setOnLongClickListener(this);
         buttonPuzzle.setOnLongClickListener(this);
-
     }
 
     @Override
     public boolean onLongClick(View view) {
-        if(view.getId()==R.id.btn1){
+        if (view.getId() == R.id.btn1) {
             txtView.setText("Tic-Tac-Toe Button is clicked");
-      }
-       if(view.getId()==R.id.btn2){
-           txtView.setText("Snake Button is clicked");
-       }
-       if(view.getId()==R.id.btn3){
-           txtView.setText("Puzzle Button is clicked");
-       }
-       return false;
+        }
+        if (view.getId() == R.id.btn2) {
+            txtView.setText("Snake Button is clicked");
+        }
+        if (view.getId() == R.id.btn3) {
+            txtView.setText("Puzzle Button is clicked");
+        }
+        return true;
     }
 
-    public void secondActivity(View v){
-        Intent i = new Intent(this,Main2ActivityTic.class);
+    public void secondActivity(View v) {
+        Intent i = new Intent(this, Main2ActivityTic.class);
+        i.putExtra("ID1", "text to main2Activity");
         startActivity(i);
     }
 
-    public void secondActivity1(View e){
-        Intent s = new Intent(this,MainActivitySna.class);
+    public void secondActivity1(View e) {
+        Intent s = new Intent(this, MainActivitySna.class);
+        s.putExtra("ID2", "text to MainActivitySna");
         startActivity(s);
     }
-    public void secondActivity2(View a){
-        Intent d = new Intent(this,MainActivity2Puz.class);
-        startActivity(d);
 
-        }
+    public void secondActivity2(View a) {
+        Intent d = new Intent(this, MainActivity2Puz.class);
+        d.putExtra("ID1", "text to MainActivity2Puz");
+        startActivity(d);
     }
+}
