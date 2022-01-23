@@ -20,7 +20,7 @@
             android:label="@string/title_activity_main_sna"
             android:theme="@style/Theme.MyApp.NoActionBar" />
         <activity
-            android:name=".Main2ActivityTic"
+            android:name="folder_TicTacToe.Main2ActivityTic"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
