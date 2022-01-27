@@ -7,6 +7,7 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import lt.vcs.myapp.MainActivity;
 import lt.vcs.myapp.R;
 
 public class splash extends AppCompatActivity {
@@ -22,7 +23,7 @@ public class splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run(){
-                Intent intent = new Intent(); //? ka cia reikia
+                Intent intent = new Intent(Main2ActivityTic.class); //? ka cia reikia
                 startActivity(intent);
                 finish();
             }

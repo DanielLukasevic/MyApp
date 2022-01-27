@@ -127,7 +127,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                     winningGame();
                 }
             });
-            //button 4 second row
+            //button 4 antra eilute
             button4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -146,7 +146,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                     winningGame();
                 }
             });
-            //button 5 second row
+            //button 5 antra eilute
             button5.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -166,7 +166,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                     winningGame();
                 }
             });
-            //button 6 second row
+            //button 6 antra eilute
             button6.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -186,7 +186,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                     winningGame();
                 }
             });
-            //button 7 third row
+            //button 7 trečioji eilutė
             button7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -227,7 +227,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                     winningGame();
                 }
             });
-            //button 9 third row l
+            //button 9 trečioji eilutė l
             button9.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -249,10 +249,10 @@ public class Main2ActivityTic extends AppCompatActivity {
                 }
             });
         }
-        //winningGame function
+        // laimejimo funkcija
         private void winningGame()
         {
-            //first way to win x player
+            //1 būdas laimėti x žaidėją
             if((b1 == 1) && (b2 == 1) && (b3 == 1))
             {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -278,7 +278,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 xCount++;
                 scorex.setText("Score X :- " + String.valueOf(xCount));
             }
-            // Second way to win x player
+            // 2 budas laimeti x zaideja
             else if((b4 == 1) && (b5 == 1) && (b6 == 1))
             {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -305,7 +305,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 xCount++;
                 scorex.setText("Score X :- " + String.valueOf(xCount));
             }
-            // Third way to win x player
+            // 3 budas laimeti x zaideja
             else if((b7 == 1) && (b8 == 1) && (b9 == 1))
             {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -333,7 +333,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 scorex.setText("Score X :- " + String.valueOf(xCount));
             }
 
-            // Fourth way to win x player
+            // 4 budas laimeti x zaideja
             else if((b1 == 1) && (b4 == 1) && (b7 == 1))
             {
 
@@ -362,7 +362,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 scorex.setText("Score X :- " + String.valueOf(xCount));
             }
 
-            // Fifth way to win x player
+            // 5 budas laimeti x zaideja
             else if((b2 == 1) && (b5 == 1) && (b8 == 1))
             {
 
@@ -391,7 +391,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 scorex.setText("Score X :- " + String.valueOf(xCount));
             }
 
-            // Sixth way to win x player
+            // 6 budas laimeti x zaideja
             else if((b3 == 1) && (b6 == 1) && (b9 == 1))
             {
 
@@ -420,7 +420,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 scorex.setText("Score X :- " + String.valueOf(xCount));
             }
 
-            // Seventh way to win x player
+            // 7 budas laimeti x zaideja
             else if((b1 == 1) && (b5 == 1) && (b9 == 1))
             {
 
@@ -449,7 +449,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 scorex.setText("Score X :- " + String.valueOf(xCount));
             }
 
-            // Eighth way to win x player
+            // 8 budas laimeti x zaidejui
             else if((b3 == 1) && (b5 == 1) && (b7 == 1))
             {
 
@@ -477,7 +477,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 xCount++;
                 scorex.setText("Score X :- " + String.valueOf(xCount));
             }
-            // First way to win o player
+            // 1 budas laimeti o zaideja
             else if((b1 == 0) && (b2 == 0) && (b3 == 0))
             {
 
@@ -506,7 +506,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 scoreo.setText("Score Y :- " + String.valueOf(oCount));
             }
 
-            // Second way to win o player
+            // 2 budas laimeti o zaideja
             else if((b4 == 0) && (b5 == 0) && (b6 == 0))
             {
 
@@ -535,7 +535,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 scoreo.setText("Score Y :- " + String.valueOf(oCount));
             }
 
-            // Third way to win o player
+            // 3 budas laimeti o zaideja
             else if((b7 == 0) && (b8 == 0) && (b9 == 0))
             {
 
@@ -564,7 +564,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 scoreo.setText("Score Y :- " + String.valueOf(oCount));
             }
 
-            // Fourth way to win o player
+            // 4 budas laimeti o zaideja
             else if((b1 == 0) && (b4 == 0) && (b7 == 0))
             {
 
@@ -593,7 +593,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 scoreo.setText("Score Y :- " + String.valueOf(oCount));
             }
 
-            // Fifth way to win o player
+            // 5 budas laimeti o zaideja
             else if((b2 == 0) && (b5 == 0) && (b8 == 0))
             {
 
@@ -622,7 +622,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 scoreo.setText("Score Y :- " + String.valueOf(oCount));
             }
 
-            // Sixth way to win o player
+            // 6 budas laimeti o zaideja
             else if((b3 == 0) && (b6 == 0) && (b9 == 0))
             {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -638,6 +638,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                         button7.setImageDrawable(null);
                         button8.setImageDrawable(null);
                         button9.setImageDrawable(null);
+
                         //resetValue function
                         resetValues();
                     }
@@ -647,7 +648,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 oCount++;
                 scoreo.setText("Score Y :- " + String.valueOf(oCount));
             }
-            // Seventh way to win o player
+            // 7 budas laimeti o zaideja
             else if((b1 == 0) && (b5 == 0) && (b9 == 0))
             {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -663,6 +664,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                         button7.setImageDrawable(null);
                         button8.setImageDrawable(null);
                         button9.setImageDrawable(null);
+
                         //resetValue function
                         resetValues();
                     }
@@ -672,7 +674,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 oCount++;
                 scoreo.setText("Score Y :- " + String.valueOf(oCount));
             }
-            // Eighth way to win o player
+            // 8 budas laimeti o zaideja
             else if((b3 == 0) && (b5 == 0) && (b7 == 0))
             {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -688,6 +690,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                         button7.setImageDrawable(null);
                         button8.setImageDrawable(null);
                         button9.setImageDrawable(null);
+
                         //resetValue function
                         resetValues();
                     }
@@ -697,7 +700,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 oCount++;
                 scoreo.setText("Score Y :- " + String.valueOf(oCount));
             }
-            //when no one win
+            // kai niekas nelaimi
             else
             {
                 if(i == 9){
@@ -714,6 +717,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                             button7.setImageDrawable(null);
                             button8.setImageDrawable(null);
                             button9.setImageDrawable(null);
+
                             //resetValue function
                             resetValues();
                         }
@@ -723,7 +727,7 @@ public class Main2ActivityTic extends AppCompatActivity {
                 }
             }
         }
-        //choosePlayer function
+        // pasirinkti zaidejo funkcija
         private void choosePlayer(){
             if(startGame.equals("X")){
                 startGame = "0";
