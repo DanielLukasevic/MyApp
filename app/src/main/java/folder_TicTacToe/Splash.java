@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import lt.vcs.myapp.MainActivity;
 import lt.vcs.myapp.R;
 
-public class splash extends AppCompatActivity {
+public class Splash extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run(){
-                Intent intent = new Intent(Main2ActivityTic.class); //? ka cia reikia
+                Intent intent = new Intent(Splash.this,Main2ActivityTic.class);
                 startActivity(intent);
                 finish();
             }

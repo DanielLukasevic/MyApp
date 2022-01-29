@@ -76,11 +76,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button1.setImageResource(R.drawable.red);  //?
+                        button1.setImageResource(R.drawable.white);  //?
                         b1 = 1;
                         i++;
                     }else{
-                        button1.setImageResource(R.drawable.yellow); //?
+                        button1.setImageResource(R.drawable.black); //?
                         b1 = 0;
                         i++;
                     }
@@ -95,11 +95,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button2.setImageResource(R.drawable.red); //?
+                        button2.setImageResource(R.drawable.white); //?
                         b2 = 1;
                         i++;
                     }else{
-                        button2.setImageResource(R.drawable.yellow); //?
+                        button2.setImageResource(R.drawable.black); //?
                         b2 = 0;
                         i++;
                     }
@@ -114,11 +114,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button3.setImageResource(R.drawable.red); //?
+                        button3.setImageResource(R.drawable.white); //?
                         b3 = 1;
                         i++;
                     }else{
-                        button3.setImageResource(R.drawable.yellow); //?
+                        button3.setImageResource(R.drawable.black); //?
                         b3 = 0;
                         i++;
                     }
@@ -133,11 +133,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button4.setImageResource(R.drawable.red); //?
+                        button4.setImageResource(R.drawable.white); //?
                         b4 = 1;
                         i++;
                     }else{
-                        button4.setImageResource(R.drawable.yellow); //?
+                        button4.setImageResource(R.drawable.black); //?
                         b4 = 0;
                         i++;
                     }
@@ -152,11 +152,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button5.setImageResource(R.drawable.red); //?
+                        button5.setImageResource(R.drawable.white); //?
                         b5 = 1;
                         i++;
                     }else{
-                        button5.setImageResource(R.drawable.yellow); //?
+                        button5.setImageResource(R.drawable.black); //?
                         b5 = 0;
                         i++;
                     }
@@ -172,11 +172,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button6.setImageResource(R.drawable.red); //?
+                        button6.setImageResource(R.drawable.white); //?
                         b6 = 1;
                         i++;
                     }else{
-                        button6.setImageResource(R.drawable.yellow); //?
+                        button6.setImageResource(R.drawable.black); //?
                         b6 = 0;
                         i++;
                     }
@@ -192,11 +192,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button7.setImageResource(R.drawable.red); //?
+                        button7.setImageResource(R.drawable.white); //?
                         b7 = 1;
                         i++;
                     }else{
-                        button7.setImageResource(R.drawable.yellow); //?
+                        button7.setImageResource(R.drawable.black); //?
                         b7 = 0;
                         i++;
                     }
@@ -213,11 +213,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button8.setImageResource(R.drawable.red); //?
+                        button8.setImageResource(R.drawable.white); //?
                         b8 = 1;
                         i++;
                     }else{
-                        button8.setImageResource(R.drawable.yellow); //?
+                        button8.setImageResource(R.drawable.black); //?
                         b8 = 0;
                         i++;
                     }
@@ -233,12 +233,12 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button9.setImageResource(R.drawable.red); //?
+                        button9.setImageResource(R.drawable.white); //?
                         b9 = 1;
                         i++;
                     }
                     else{
-                        button9.setImageResource(R.drawable.yellow); //?
+                        button9.setImageResource(R.drawable.black); //?
                         b9 = 0;
                         i++;
                     }
