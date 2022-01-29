@@ -76,11 +76,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button1.setImageResource(R.drawable.white);  //?
+                        button1.setImageResource(R.drawable.white_background);  //?
                         b1 = 1;
                         i++;
                     }else{
-                        button1.setImageResource(R.drawable.black); //?
+                        button1.setImageResource(R.drawable.black_background); //?
                         b1 = 0;
                         i++;
                     }
@@ -95,11 +95,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button2.setImageResource(R.drawable.white); //?
+                        button2.setImageResource(R.drawable.white_background); //?
                         b2 = 1;
                         i++;
                     }else{
-                        button2.setImageResource(R.drawable.black); //?
+                        button2.setImageResource(R.drawable.black_background); //?
                         b2 = 0;
                         i++;
                     }
@@ -114,11 +114,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button3.setImageResource(R.drawable.white); //?
+                        button3.setImageResource(R.drawable.white_background);
                         b3 = 1;
                         i++;
                     }else{
-                        button3.setImageResource(R.drawable.black); //?
+                        button3.setImageResource(R.drawable.black_background);
                         b3 = 0;
                         i++;
                     }
@@ -133,11 +133,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button4.setImageResource(R.drawable.white); //?
+                        button4.setImageResource(R.drawable.white_background); //?
                         b4 = 1;
                         i++;
                     }else{
-                        button4.setImageResource(R.drawable.black); //?
+                        button4.setImageResource(R.drawable.black_background); //?
                         b4 = 0;
                         i++;
                     }
@@ -152,11 +152,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button5.setImageResource(R.drawable.white); //?
+                        button5.setImageResource(R.drawable.white_background); //?
                         b5 = 1;
                         i++;
                     }else{
-                        button5.setImageResource(R.drawable.black); //?
+                        button5.setImageResource(R.drawable.black_background); //?
                         b5 = 0;
                         i++;
                     }
@@ -172,11 +172,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button6.setImageResource(R.drawable.white); //?
+                        button6.setImageResource(R.drawable.white_background); //?
                         b6 = 1;
                         i++;
                     }else{
-                        button6.setImageResource(R.drawable.black); //?
+                        button6.setImageResource(R.drawable.black_background); //?
                         b6 = 0;
                         i++;
                     }
@@ -192,11 +192,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button7.setImageResource(R.drawable.white); //?
+                        button7.setImageResource(R.drawable.white_background); //?
                         b7 = 1;
                         i++;
                     }else{
-                        button7.setImageResource(R.drawable.black); //?
+                        button7.setImageResource(R.drawable.black_background); //?
                         b7 = 0;
                         i++;
                     }
@@ -213,11 +213,11 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button8.setImageResource(R.drawable.white); //?
+                        button8.setImageResource(R.drawable.white_background); //?
                         b8 = 1;
                         i++;
                     }else{
-                        button8.setImageResource(R.drawable.black); //?
+                        button8.setImageResource(R.drawable.black_background); //?
                         b8 = 0;
                         i++;
                     }
@@ -233,12 +233,12 @@ public class Main2ActivityTic extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if(startGame.equals("X")){
-                        button9.setImageResource(R.drawable.white); //?
+                        button9.setImageResource(R.drawable.white_background); //?
                         b9 = 1;
                         i++;
                     }
                     else{
-                        button9.setImageResource(R.drawable.black); //?
+                        button9.setImageResource(R.drawable.black_background); //?
                         b9 = 0;
                         i++;
                     }
