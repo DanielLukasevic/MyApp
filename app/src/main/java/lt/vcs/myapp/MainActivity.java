@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import Snake.MainActivitySna;
 import folder_TicTacToe.Main2ActivityTic;
 
 public class MainActivity extends AppCompatActivity implements View.OnLongClickListener {
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
 
     public void secondActivity2(View a) {
         Intent d = new Intent(this, MainActivity2Puz.class);
-        d.putExtra("ID1", "text to MainActivity2Puz");
+        d.putExtra("ID3", "text to MainActivity2Puz");
         startActivity(d);
     }
 }
