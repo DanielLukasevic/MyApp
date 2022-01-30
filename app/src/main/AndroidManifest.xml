@@ -15,7 +15,7 @@
             android:label="title_activity_main_activity2_puz"
             android:theme="@style/Theme.MyApp.NoActionBar" />
         <activity
-            android:name=".MainActivitySna"
+            android:name="Snake.MainActivitySna"
             android:exported="false"
             android:label="title_activity_main_sna"
             android:theme="@style/Theme.MyApp.NoActionBar" />
