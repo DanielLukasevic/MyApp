@@ -15,23 +15,23 @@ import lt.vcs.myapp.R;
 
 public class GameView extends View {
     private Bitmap bmGrass1, bmGrass2;
-    public static int sizeOfMap = 75 * Constants.SCREEN_WIDTH / 1080;
+    public static int sizeOfMap = 75 * Constants.SCREEN_WIDTH/1080;
     private int h = 21, w = 12;
     private ArrayList<Grass> arrGrass = new ArrayList<>();
 
     public GameView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-        bmGrass1 = BitmapFactory.decodeResource(this.getResources(), R.drawable.grass);
+        bmGrass1 = BitmapFactory.decodeResource(this.getResources(), R.drawable.grass_background);
         bmGrass1 = Bitmap.createScaledBitmap(bmGrass1, sizeOfMap, sizeOfMap, true);
-        bmGrass2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.grass03);
+        bmGrass2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.grass03_background);
         bmGrass2 = Bitmap.createScaledBitmap(bmGrass2, sizeOfMap, sizeOfMap, true);
         for (int i = 0; i < h; i++) {
             for (int j = 0; j < w; j++) {
                 if ((i + j) % 2 == 0) {
-                    arrGrass.add(new Grass(bmGrass1, j * sizeOfMap + Constants.SCREEN_WIDTH / 2 - (w - 2) * sizeOfMap,
+                    arrGrass.add(new Grass(bmGrass1, j*sizeOfMap + Constants.SCREEN_WIDTH / 2 - (w/2) * sizeOfMap,
                             i * sizeOfMap + 100 * Constants.SCREEN_HEIGHT / 1920, sizeOfMap, sizeOfMap));
                 } else {
-                    arrGrass.add(new Grass(bmGrass2, j * sizeOfMap + Constants.SCREEN_WIDTH / 2 - (w - 2) * sizeOfMap,
+                    arrGrass.add(new Grass(bmGrass2, j * sizeOfMap + Constants.SCREEN_WIDTH / 2 - (w/2) * sizeOfMap,
                             i * sizeOfMap + 100 * Constants.SCREEN_HEIGHT / 1920, sizeOfMap, sizeOfMap));
                 }
             }
