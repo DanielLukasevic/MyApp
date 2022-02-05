@@ -14,10 +14,11 @@ import java.util.ArrayList;
 import lt.vcs.myapp.R;
 
 public class GameView extends View {
-    private Bitmap bmGrass1, bmGrass2;
+    private Bitmap bmGrass1, bmGrass2, bmSnake;
     public static int sizeOfMap = 75 * Constants.SCREEN_WIDTH/1080;
     private int h = 21, w = 12;
     private ArrayList<Grass> arrGrass = new ArrayList<>();
+    private Snake snake;
 
     public GameView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
@@ -25,6 +26,8 @@ public class GameView extends View {
         bmGrass1 = Bitmap.createScaledBitmap(bmGrass1, sizeOfMap, sizeOfMap, true);
         bmGrass2 = BitmapFactory.decodeResource(this.getResources(), R.drawable.grass03_background);
         bmGrass2 = Bitmap.createScaledBitmap(bmGrass2, sizeOfMap, sizeOfMap, true);
+        bmSnake = BitmapFactory.decodeResource(this.getResources(), R.drawable.snake1_background);
+        bmSnake = Bitmap.createScaledBitmap(bmSnake, 14*sizeOfMap, sizeOfMap, true);
         for (int i = 0; i < h; i++) {
             for (int j = 0; j < w; j++) {
                 if ((i + j) % 2 == 0) {
@@ -36,6 +39,7 @@ public class GameView extends View {
                 }
             }
         }
+       snake = new Snake(bmSnake, arrGrass.get(126).getX(), arrGrass.get(126).getY(),4);
     }
 
     @Override
@@ -45,5 +49,6 @@ public class GameView extends View {
         for (int i = 0; i < arrGrass.size(); i++) {
             canvas.drawBitmap(arrGrass.get(i).getBm(), arrGrass.get(i).getX(), arrGrass.get(i).getY(), null);
         }
+        snake.draw(canvas);
     }
 }
