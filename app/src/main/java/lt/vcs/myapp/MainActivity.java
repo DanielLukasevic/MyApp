@@ -14,7 +14,7 @@ import folder_TicTacToe.Main2ActivityTic;
 public class MainActivity extends AppCompatActivity implements View.OnLongClickListener {
     Button buttonTic;
     Button buttonSnake;
-    Button buttonPuzzle;
+    Button buttonScore;
     TextView txtView;
 
     @Override
@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
         setContentView(R.layout.activity_main);
         buttonTic = (Button) findViewById(R.id.btn1);
         buttonSnake = (Button) findViewById(R.id.btn2);
-        buttonPuzzle = (Button) findViewById(R.id.btn3);
+        buttonScore = (Button) findViewById(R.id.btn3);
         txtView = (TextView) findViewById(R.id.txt);
         buttonTic.setOnLongClickListener(this);
         buttonSnake.setOnLongClickListener(this);
-        buttonPuzzle.setOnLongClickListener(this);
+        buttonScore.setOnLongClickListener(this);
     }
 
     @Override
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
             txtView.setText("Snake Button is clicked");
         }
         if (view.getId() == R.id.btn3) {
-            txtView.setText("Puzzle Button is clicked");
+            txtView.setText("Score Button is clicked");
         }
         return true;
     }
@@ -57,8 +57,8 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
     }
 
     public void secondActivity2(View a) {
-        Intent d = new Intent(this, MainActivity2Puz.class);
-        d.putExtra("ID3", "text to MainActivity2Puz");
+        Intent d = new Intent(this, MainActivity2Scr.class);
+        d.putExtra("ID3", "text to MainActivity2Scr");
         startActivity(d);
     }
 }

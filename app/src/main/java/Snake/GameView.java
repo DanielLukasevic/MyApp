@@ -120,7 +120,7 @@ public class GameView extends View {
             snake.addPart();
 
         }
-        handler.postDelayed(r, 150);
+        handler.postDelayed(r, 200);
     }
 
     public int[] randomApple() {

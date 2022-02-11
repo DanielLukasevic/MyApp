@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btn2"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="28dp"
         android:background="#da1a01"
         android:onClick="secondActivity"
         android:text="Tic-Tac-Toe"
@@ -46,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="89dp"
         android:layout_above="@+id/btn3"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="28dp"
         android:background="#012dda"
         android:onClick="secondActivity1"
         android:text="Snake"
@@ -60,15 +60,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="92dp"
         android:background="#1fe70d"
         android:onClick="secondActivity2"
-        android:text="Puzzle"
+        android:text="Score"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="TextContrastCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@android:drawable/ic_input_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
